@@ -1,3 +1,7 @@
 *.o
 *.obj
 *.exe
+
+*.vcxproj
+*.vcxproj.filters
+out/
