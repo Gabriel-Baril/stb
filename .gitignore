@@ -3,5 +3,8 @@
 *.exe
 
 *.vcxproj
+*.vcxproj.user
 *.vcxproj.filters
 out/
+x64/
+obj/
