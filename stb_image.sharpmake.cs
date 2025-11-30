@@ -2,9 +2,9 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class HdnCodeExternalStbImageProject : BaseCppProject
+public class DmCodeExternalStbImageProject : BaseCppProject
 {
-    public HdnCodeExternalStbImageProject()
+    public DmCodeExternalStbImageProject()
     {
         Name = "dm.code.external.stb";
         SourceRootPath = @"[project.SharpmakeCsPath]\src\stb_image";
