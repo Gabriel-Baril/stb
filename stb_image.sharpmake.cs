@@ -6,7 +6,7 @@ public class HdnCodeExternalStbImageProject : BaseCppProject
 {
     public HdnCodeExternalStbImageProject()
     {
-        Name = "hdn.code.external.stb";
+        Name = "dm.code.external.stb";
         SourceRootPath = @"[project.SharpmakeCsPath]\src\stb_image";
         AddTargets(TargetUtil.DefaultTarget);
     }
